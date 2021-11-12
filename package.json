@@ -1,8 +1,9 @@
 {
-  "name": "antd",
+  "name": "@prospective/antd",
   "version": "4.17.0-alpha.10",
   "description": "An enterprise-class UI design language and React components implementation",
   "title": "Ant Design",
+  "private": true,
   "keywords": [
     "ant",
     "component",
@@ -15,12 +16,9 @@
     "ui"
   ],
   "homepage": "https://ant.design",
-  "bugs": {
-    "url": "https://github.com/ant-design/ant-design/issues"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-design/ant-design"
+    "url": "https://github.com/prospective/ant-design"
   },
   "license": "MIT",
   "contributors": [
@@ -132,7 +130,7 @@
     "rc-motion": "^2.4.4",
     "rc-notification": "~4.5.7",
     "rc-pagination": "~3.1.9",
-    "rc-picker": "~2.5.17",
+    "@prospective/rc-picker": "~2.5.20-1",
     "rc-progress": "~3.1.0",
     "rc-rate": "~2.9.0",
     "rc-resize-observer": "^1.0.0",
@@ -288,7 +286,7 @@
     "react-dom": ">=16.9.0"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "bundlesize": [
     {
